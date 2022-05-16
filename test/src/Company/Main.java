@@ -218,8 +218,8 @@ public class Main {
 		scan.nextLine();
 		selectNum = selectNum - 1;
 		addInfo(designEngrList.get(selectNum));
-		System.out.println(selectNum);
-		designEngrList.set(selectNum,designEngrList.get(selectNum));
+		//System.out.println(selectNum);
+		//designEngrList.set(selectNum,designEngrList.get(selectNum));
 	}
 
 }
